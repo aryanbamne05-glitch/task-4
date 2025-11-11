@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome User</title>
+</head>
+<body>
+  <h2 id="welcomeMessage"></h2>
+
+  <script>
+    // Ask for user's name when page loads
+    let userName = prompt("Enter your name:");
+
+    // If user enters a name, display the welcome message
+    if (userName) {
+      document.getElementById("welcomeMessage").textContent = "Welcome, " + user
